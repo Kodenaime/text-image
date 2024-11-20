@@ -60,24 +60,24 @@ export const stepsData = [
 export const testimonialsData = [
     {
         image:profile_img_1,
-        name:'Donald Jackman',
-        role:'Graphic Designer',
+        name:'Edor Emmanuel',
+        role:'UI Designer',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`Since I started using Kode-Pictures, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
     },
     {
         image:profile_img_2,
-        name:'Richard Nelson',
-        role:'Content Creator',
-        stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        name:'Funyin Kash',
+        role:'Software Engineer',
+        stars:4,
+        text:`I've been using Kode-Pictures for a while now, across various platforms, and it has been incredibly user-friendly, and straighforward.`
     },
     {
         image:profile_img_1,
-        name:'Donald Jackman',
-        role:' Graphic Designer',
+        name:'Prince Ugonna',
+        role:'Web Developer',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`After hearing of Kode-Pictures, I have adopted it as my go to for all images and illustrations, and it has been incredible and easy to use.`
     },
 ]
 
