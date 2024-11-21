@@ -8,3 +8,21 @@
     font-family: "Montserrat";
 }
 
+.place-holder {
+    color: #e0e0e0;
+    font-weight: 400;
+}
+
+/* .btner-1:hover {
+    transform: scale(1.05);
+} */
+
+.btner-2 {
+    border: 1px solid transparent;
+}
+
+.btner-2:hover {
+    color: black;
+    background: transparent;
+    border-color: black;
+}
