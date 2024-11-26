@@ -25,7 +25,7 @@ const App = () => {
         showLogin && <Login />
       }
       <Routes>
-        <Route path='/' element={<Home />}  />
+        <Route path='/' element={<Home />}  /> 
         <Route path='/result' element={<Result />}  />
         <Route path='/subscribe' element={<Subscribe /> }  />
       </Routes>

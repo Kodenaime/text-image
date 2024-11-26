@@ -21,7 +21,7 @@ const Login = () => {
             if(state === 'Login') {
                const {data} = await axios.post(backendUrl + '/api/user/login', {email, password})
 
-               if(data.sucess) {
+               if(data.success) {
                 setToken(data.token)
                 setUser(data.user)
                 localStorage.getItem('token', data.token)
@@ -33,7 +33,7 @@ const Login = () => {
             } else {
                 const {data} = await axios.post(backendUrl + '/api/user/register', {name, email, password})
 
-                if(data.sucess) {
+                if(data.success) {
                  setToken(data.token)
                  setUser(data.user)
                  localStorage.getItem('token', data.token)
@@ -47,7 +47,7 @@ const Login = () => {
             }
 
         } catch (error) {
-            toast.error(data.message)
+            toast.error(error.message)
         }
 
     }
@@ -60,8 +60,8 @@ const Login = () => {
     },[])
 
   return (
-    <div onSubmit={onSubmitHandler} className='absolute top-0 left-0 right-0 bottom-0 z-10 backdrop-blur-sm bg-black/30 flex justify-center items-center'>
-        <form className='relative bg-white p-10 rounded-xl text-slate-500'>
+    <div className='absolute top-0 left-0 right-0 bottom-0 z-10 backdrop-blur-sm bg-black/30 flex justify-center items-center'>
+        <form onSubmit={onSubmitHandler} className='relative bg-white p-10 rounded-xl text-slate-500'>
             <h1 className='text-center text-2xl text-neutral-700 font-medium'>{state}</h1>
             <p className='text-sm'>Welcome back! please sign in to continue</p>
 
